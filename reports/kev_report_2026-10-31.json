@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-10-31T03:20:38.575456+00:00",
+  "source": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+  "catalog_version": "2026.10.30",
+  "catalog_release_date": "2026-10-30T17:02:45.3665Z",
+  "total_catalog_entries": 1766,
+  "new_entries_count": 2,
+  "first_run": false,
+  "new_entries": [
+    {
+      "cve_id": "CVE-2026-118527",
+      "vendor": "Ivanti",
+      "product": "Connect Secure",
+      "vulnerability_name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+      "date_added": "2026-10-30",
+      "description": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "due_date": "2026-11-13",
+      "ransomware_use": "Unknown",
+      "notes": "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+      "cwes": [
+        "CWE-340"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-111357",
+      "vendor": "Ivanti",
+      "product": "Connect Secure",
+      "vulnerability_name": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+      "date_added": "2026-10-30",
+      "description": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "due_date": "2026-11-02",
+      "ransomware_use": "Unknown",
+      "notes": "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US ; https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+      "cwes": [
+        "CWE-306",
+        "CWE-862",
+        "CWE-345"
+      ]
+    }
+  ]
+}
