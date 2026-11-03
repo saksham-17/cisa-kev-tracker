@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-11-03T04:38:13.305179+00:00",
+  "source": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+  "catalog_version": "2026.10.30",
+  "catalog_release_date": "2026-10-30T17:02:45.3665Z",
+  "total_catalog_entries": 1766,
+  "new_entries_count": 0,
+  "first_run": false,
+  "new_entries": []
+}
