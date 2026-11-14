@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-11-14T04:06:20.377694+00:00",
+  "source": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+  "catalog_version": "2026.11.13",
+  "catalog_release_date": "2026-11-13T20:24:18.3008Z",
+  "total_catalog_entries": 1781,
+  "new_entries_count": 2,
+  "first_run": false,
+  "new_entries": [
+    {
+      "cve_id": "CVE-2026-123039",
+      "vendor": "Check Point",
+      "product": "Multiple Products",
+      "vulnerability_name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+      "date_added": "2026-11-13",
+      "description": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "due_date": "2026-11-16",
+      "ransomware_use": "Unknown",
+      "notes": "https://support.checkpoint.com/results/sk/sk1000362 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
+      "cwes": [
+        "CWE-732",
+        "CWE-862"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-114713",
+      "vendor": "UnrealIRCd",
+      "product": "UnrealIRCd",
+      "vulnerability_name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+      "date_added": "2026-11-13",
+      "description": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "due_date": "2026-11-16",
+      "ransomware_use": "Unknown",
+      "notes": "https://forums.unrealircd.org/viewtopic.php?t=9487 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
+      "cwes": [
+        "CWE-140"
+      ]
+    }
+  ]
+}
